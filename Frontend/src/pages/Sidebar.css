@@ -1,0 +1,8 @@
+
+.sidebar-link {
+    transition: background-color 0.3s;
+  }
+  
+  .sidebar-link:hover {
+    background-color: #ffe066;
+  }

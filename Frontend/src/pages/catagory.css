@@ -1,0 +1,143 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-image: url('');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app {
+  background: rgba(255, 255, 255, 0.8);
+  width: 90%;
+  max-width: 1200px;
+  margin: 20px;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  color: #0450ba;
+  padding: 10px 200px;
+}
+
+.header .logo {
+  max-width: 150px;
+  height: auto;
+  margin-left: 0cm; /* Adjust the left margin as needed */
+}
+
+.navigation-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navigation-bar ul {
+  list-style-type: none;
+  padding: 10;
+  margin: 10;
+  display: flex;
+}
+
+.navigation-bar li {
+  margin: 0 10px;
+}
+
+.navigation-bar a {
+  text-decoration: none;
+  color: #4604eb;
+}
+
+.user-profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center; /* Centers the text horizontally */
+}
+
+.user-profile .profile-pic {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%; /* Use 50% for a circular profile picture */
+}
+
+.user-profile span {
+  margin-top: 5px; /* Adjust the margin to create space between the icon and text */
+}
+
+
+.dropdown-icon {
+  margin-left: 5px;
+}
+
+.content-area {
+  padding: 20px;
+}
+
+.search-add-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.search-bar {
+  flex: 1;
+  margin-right: 10px;
+}
+
+.search-bar input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid hsl(226, 92%, 45%);
+  border-radius: 4px;
+}
+
+.add-category-button {
+  padding: 10px 20px;
+  background-color: #0b60bc;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.add-category-button:hover {
+  background-color: #1c2a33;
+}
+
+.product-table {
+  margin-bottom: 20px;
+}
+
+.product-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.product-table th,
+.product-table td {
+  border: 1px solid #1e0bf1;
+  padding: 10px;
+  text-align: left;
+}
+
+.product-table th {
+  background-color: #fff
+}
+
+.footer {
+  background-color:#fff;
+  color: #888;
+  padding: 20px;
+  text-align: center;
+}
